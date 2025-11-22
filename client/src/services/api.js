@@ -1,4 +1,4 @@
-const BASE = import.meta.env.VITE_API_BASE || "";
+const BASE = import.meta.env.VITE_BASE_URL || "https://tinylink-a8gs.onrender.com";
 
 export async function createLink(data) {
   const res = await fetch(`${BASE}/api/links`, {

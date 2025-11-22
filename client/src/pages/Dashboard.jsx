@@ -6,7 +6,7 @@ import { listLinks } from "../services/api";
 export default function Dashboard() {
   const [links, setLinks] = useState([]);
   const [loading, setLoading] = useState(true);
-  const baseUrl = import.meta.env.VITE_BASE_URL || "http://localhost:5000";
+  const baseUrl = import.meta.env.VITE_BASE_URL || "https://tinylink-a8gs.onrender.com";
   useEffect(() => {
     load();
   }, []);

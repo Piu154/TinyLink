@@ -7,7 +7,7 @@ export default function Stats() {
   const navigate = useNavigate();
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
-  const baseUrl = import.meta.env.VITE_BASE_URL || "http://localhost:5000";
+  const baseUrl = import.meta.env.VITE_BASE_URL || "https://tinylink-a8gs.onrender.com";
 
   useEffect(() => {
     setLoading(true);
