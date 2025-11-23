@@ -37,7 +37,7 @@ Create short URLs
 
 Optional custom shortcode
 
-Redirect /code → original URL
+
 
 Click counter
 
